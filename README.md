@@ -1,9 +1,23 @@
-# Sales-Prediction-of-Walmart-using-Machine-Learning
-Data Science Project in python to predict the sales for each department using historical markdown data from the Walmart dataset containing data of 45 Walmart stores.
-The purpose of this project is to develop a predictive model and find out the sales of each product at a given Walmart store.
-This project features a exploratory analysis and my predictive model was primarily based on linear regression
+# Intel-image-classification-Kaggle
+The image data of Natural Scenes around the world.Want to build powerful Neural network that can classify these images with more accuracy.
 
-Predict which departments are affected with the holiday markdown events and the extent of impact.
+Link to the original problem statement on kaggle : https://www.kaggle.com/puneet6060/intel-image-classification
 
-We would also like to create a linear model to find a specific value for Weekly Sales that we want to predict. This line of best fit is intended to approximate further data points based on the line that we find in our training data.
-Perform dimensionality reduction to improve prediction error by shrinkage in order to reduce overfitting.
+
+Files/directories used in the code:
+
+categories :- jason file containig the 6 different classes ('buildings','forest','glacier','mountain','sea', 'street').
+
+seg_train and seg_pred which are contained in a folder called classification which holds training and validation images.
+
+seg_pred :- containing the images to be predicted.
+
+
+I ran the Resnet 152 model and updated the pre-trained weights by training it on the train images dataset.
+Acheived an overall accuracy of 90.7% on the validation dataset (seg_test).
+
+
+I have uploaded both an offline notebook as well as my google-colab notebook.
+
+
+
